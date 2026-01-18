@@ -28,14 +28,6 @@ main {
     border: 3px solid #008bab;
 }
 
-footer {
-    padding: 5px;
-    margin: 10px;
-    border: 3px solid rebeccapurple;
-    background-image: linear-gradient(to left, yellow, white);
-    color: var(--dark-grey);
-}
-
 .container {
     max-width: 1200px;
     margin: 0px auto;
@@ -133,4 +125,74 @@ h2{
 .goal-highlight{
     color: var(--primary);
     font-weight: 500;
+}
+
+.job-item
+.edu-item
+.project-item{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--dark);
+    border-radius: 8px;
+}
+
+.timeline{
+    color: var(--dark);
+    font-size: 0.9rem;
+}
+
+.panel{
+    display: flex;
+    padding: 1rem;
+    background: var(--primary);
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+
+.projects{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card{
+    background: var(--primary);
+    border: 1px solid var(--dark);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px var(--primary);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+}
+
+.project-header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-card p{
+    margin-bottom: 15px;
+}
+
+.project-buttom {
+    background-color: var(--dark-grey);
+    color: var(--text);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--text);
 }
